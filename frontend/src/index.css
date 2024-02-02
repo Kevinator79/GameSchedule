@@ -1,0 +1,701 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+#content {
+  background-color: rgb(0, 0, 0);
+}
+
+#popup-shade {
+  opacity: 0.7;
+}
+
+#entire {
+  background-color: rgb(0, 0, 0);
+}
+
+#content .topline {
+  padding: 30px;
+}
+
+#content .topline .logo {
+  line-height: 40px;
+  color: #fff;
+  font-weight: bold;
+}
+
+#content .topline .logo img {
+  height: 40px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+#content .topline .fr a {
+  margin-right: 30px;
+  text-decoration: none;
+  color: #fff;
+}
+
+#content .topline .fr img {
+  margin-right: 8px;
+}
+
+#content .topline .fr .sure {
+  color: #a0245f;
+}
+
+#test {
+  z-index: -1;
+}
+#content #mainbox {
+  width: 480px;
+  display: block;
+  margin: 60px auto;
+}
+
+#littlebox {
+  width: 300px;
+  display: block;
+  margin: 7px auto;
+  margin-left: 10px;
+  padding-top: 1px;
+}
+
+#content #mainbox3 {
+  width: 480px;
+  display: block;
+  margin: 130px auto;
+}
+
+#content #mainbox4 {
+  width: 1000px;
+  display: block;
+  margin: 130px auto;
+}
+#content #mainbox5 {
+  width: 1800px;
+  display: block;
+  margin: 130px auto;
+  min-height: 400px;
+}
+
+#friendcard  {
+  width: 800px;
+  height: 156px;
+  display: block;
+  margin: 30px auto;
+  background-color: #555555;
+  border-radius: 5px;
+}
+
+#friendcardinfo {
+  float: left;
+}
+
+#friendcardinfo2 {
+  float: left;
+}
+
+#friendcardside2 img{
+  position: absolute;
+  right: 55px;
+  bottom: 30px;
+}
+
+#friendcardwrapper {
+  position: relative;
+  float: right;
+  width: 200px;
+  height: 156px;
+}
+
+#friendcardinfo img{
+  padding: 36px 65px 36px 60px;
+}
+
+#friendcard h1{
+  padding: 60px 0 60px 0px;
+}
+
+#friendcardwrapper #leavefriend h3 {
+  padding-top: 5px;
+  padding-right: 10px;
+  color: rgb(213, 213, 213);
+}
+
+#friendcardwrapper #pushfriend h3 {
+  padding-top: 5px;
+  padding-left: 30px;
+  color: rgb(213, 213, 213);
+}
+
+#content #mainbox4 #post-row {
+  display: flex;
+}
+
+#content #mainbox5 #friend-row {
+  display: flex;
+}
+
+#content #sidebox1 {
+  width: 480px;
+  display: block;
+  padding: 0 70px 0 0;
+}
+
+#content #sidebox2 {
+  width: 510px;
+  display: block;
+}
+
+#content #friendbox1 {
+  width: 800px;
+  display: block;
+  padding: 0 200px 0 0;
+}
+
+#content #friendbox2 {
+  width: 800px;
+  display: block;
+}
+
+#content #mainbox h1 {
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+#content #mainbox3 h1 {
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+#content #mainbox4 h1 {
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+#content #mainbox5 h1 {
+  color: #fff;
+  font-weight: bold;
+  text-align: left;
+  padding-bottom: 30px;
+}
+
+#content #sidebox1 h2 {
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+#content #sidebox2 h2 {
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+#content #sidebox2 h4 {
+  color: rgb(0, 0, 0);
+  background-color: #20df7f;
+  font-weight: bold;
+  border-radius: 12px;
+  margin-right: 4px;
+  text-align: center;
+  padding-left: 3px;
+  padding-top: 3px;
+  padding-right: 3px;
+  padding-bottom: 3px;
+  display: inline;
+}
+
+#content #mainbox2 {
+  width: 480px;
+  display: block;
+  margin: 60px auto;
+}
+
+#content #mainbox2 h1 {
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+#content #smallbox {
+  width: 480px;
+  display: block;
+  margin: 30px auto;
+}
+
+#content #smallbox h3 {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+#content #smallbox a {
+  color: #fff;
+}
+
+#content #mainbox input {
+  background-color: #959798;
+  color: #fff;
+  font-size: 24px;
+  line-height: 72px;
+  padding: 0 30px;
+  box-sizing: border-box;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  border: none;
+  width: 100%;
+}
+
+#littlebox input {
+  background-color: #838383;
+  color: #fff;
+  font-size: 15px;
+  line-height: 40px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  border: none;
+  width: 100%;
+}
+
+#content #mainbox3 input {
+  background-color: #959798;
+  color: #fff;
+  font-size: 24px;
+  line-height: 72px;
+  padding: 0 30px;
+  box-sizing: border-box;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  border: none;
+  width: 100%;
+}
+
+#content #mainbox4 input {
+  background-color: #959798;
+  color: #fff;
+  font-size: 24px;
+  line-height: 72px;
+  padding: 0 30px;
+  box-sizing: border-box;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  border: none;
+  width: 100%;
+}
+
+#content #mainbox5 input {
+  background-color: #C4C4C4;
+  color: #fff;
+  font-size: 22px;
+  line-height: 40px;
+  padding: 5px 20px 5px 20px;
+  box-sizing: border-box;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  border: none;
+  width: 100%;
+}
+
+#content #sidebox1 input {
+  background-color: #959798;
+  color: #fff;
+  font-size: 24px;
+  line-height: 72px;
+  padding: 0 30px;
+  box-sizing: border-box;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  border: none;
+  width: 100%;
+}
+
+#content #sidebox2 select {
+  background-color: #959798;
+  color: #fff;
+  font-size: 24px;
+  padding: 0 30px;
+  box-sizing: border-box;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  border: none;
+  width: 100%;
+}
+
+.dropdownBox1 {
+  -webkit-appearance: menulist-button;
+   height: 50px;
+}
+
+.dropdownBox2 {
+  -webkit-appearance: menulist-button;
+   height: 80px;
+}
+
+#content #policy p {
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+
+#content #policy h1 {
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+
+#content #mainbox2 input {
+  background-color: #959798;
+  color: #fff;
+  font-size: 24px;
+  line-height: 72px;
+  padding: 0 30px;
+  box-sizing: border-box;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  border: none;
+  width: 100%;
+}
+
+#content #mainbox input::placeholder {
+  color: #fff;
+}
+
+#content #mainbox textarea::placeholder {
+  color: #fff;
+}
+
+#littlebox input::placeholder {
+  color: #fff;
+}
+
+#content #mainbox2 input::placeholder {
+  color: #fff;
+}
+
+#content #mainbox3 input::placeholder {
+  color: #fff;
+}
+
+#content #mainbox4 input::placeholder {
+  color: #fff;
+}
+
+#content #mainbox5 input::placeholder {
+  color: #fff;
+}
+
+#content #sidebox1 input::placeholder {
+  color: #fff;
+}
+
+#content #sidebox2 select::placeholder {
+  color: #fff;
+}
+
+#content #mainbox button {
+  border: none;
+  font-size: 24px;
+  line-height: 72px;
+  color: #fff;
+  text-align: center;
+  background-color: #20df7f;
+  border-radius: 12px;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+}
+
+#pu-button-container button {
+  border: none;
+  font-size: 16px;
+  line-height: 36px;
+  color: rgb(0, 0, 0);
+  background-color: #20df7f;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-right: 15px;
+  padding: 3px 10px 3px 10px;
+}
+
+
+#content #mainbox3 button {
+  border: none;
+  font-size: 24px;
+  line-height: 72px;
+  color: #fff;
+  text-align: center;
+  background-color: #20df7f;
+  border-radius: 12px;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+}
+
+#content #mainbox4 button {
+  border: none;
+  font-size: 24px;
+  line-height: 72px;
+  color: #fff;
+  text-align: center;
+  background-color: #20df7f;
+  border-radius: 12px;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+}
+
+#content #sidebox1 button {
+  border: none;
+  font-size: 24px;
+  line-height: 72px;
+  color: #fff;
+  text-align: center;
+  background-color: #20df7f;
+  border-radius: 12px;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+}
+
+#content #mainbox2 button {
+  border: none;
+  font-size: 24px;
+  line-height: 72px;
+  color: #fff;
+  text-align: center;
+  background-color: #20df7f;
+  border-radius: 12px;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+}
+
+#content #mainbox .btn-group .btn:not(:last-child) {
+  margin-right: 30px;
+}
+
+#littlebox .btn-group .btn:not(:last-child) {
+  margin-right: 5px;
+}
+
+#content #mainbox3 .btn-group .btn:not(:last-child) {
+  margin-right: 30px;
+}
+
+#content #sidebox1 .btn-group .btn:not(:last-child) {
+  margin-right: 30px;
+}
+
+#content #mainbox2 .btn-group .btn:not(:last-child) {
+  margin-right: 30px;
+}
+
+#content .conlogo {
+  width: 600px;
+  margin: auto;
+  display: block;
+  padding: 60px 0;
+}
+
+#content .conlogo img {
+  height: 120px;
+}
+
+#content .nologo h1 {
+  height: 120px;
+}
+
+#content #special button {
+  background-color: #c2bdbd;
+}
+
+#flash-container-good {
+  width: 400px;
+  background-color: rgb(169, 248, 161);
+  position: absolute;
+  border-radius: 5px;
+  padding: 10px 10px 10px 10px;
+  border: 3px solid rgb(122, 222, 111);
+  top: 13%;
+  left: 50%;
+  margin: 0 0 0 -200px;
+}
+
+#flash-container-bad {
+  width: 400px;
+  background-color: rgb(228, 110, 110);
+  position: absolute;
+  border-radius: 5px;
+  padding: 10px 10px 10px 10px;
+  border: 3px solid rgb(216, 61, 61);
+  top: 13%;
+  left: 50%;
+  margin: 0 0 0 -200px;
+}
+
+#mainbox textarea {
+  background-color: #959798;
+  font-family: inherit;
+  color: #fff;
+  font-size: 24px;
+  padding: 20px 30px 40px 30px;
+  box-sizing: border-box;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  border: none;
+  width: 100%;
+  resize: none;
+}
+
+.btn-group {
+  display: flex;
+  align-items: center;
+}
+
+.btn-group .btn {
+  flex-grow: 1;
+}
+
+.fl {
+  float: left;
+}
+
+.fn-clear {
+  overflow: hidden;
+}
+
+.fr {
+  float: right;
+}
+
+.fm {
+  float: middle;
+}
+
+.footer {
+  border-top: 1px solid #F4F4F4;
+  padding: 60px 30px;
+}
+
+.footer .leftbox .flogo {
+  height: 30px;
+  margin: 30px;
+}
+
+.footer .leftbox .line {
+  padding: 30px;
+}
+
+.footer .leftbox .line .fl {
+  height: 30px;
+  margin-right: 30px;
+}
+
+.footer .leftbox .desc {
+  padding: 30px;
+  font-size: 14px;
+  line-height: 40px;
+  color: #ccc;
+}
+
+.footer .fr .fl {
+  width: 300px;
+}
+
+.footer .fr .fl .tit,
+.footer .fr .fl .desc a {
+  color: #fff;
+  display: block;
+  font-size: 16px;
+  line-height: 30px;
+  text-decoration: none;
+}
+
+.footer .fr .fl .tit {
+  padding-bottom: 30px;
+}
+
+.divider{
+  height:30px;
+}
+
+.pushLeft{
+  padding-right: 40px;
+}
+
+.divider2{
+  height:0px;
+}
+
+.divider3{
+  height:10px;
+}
+
+.divider4{
+  height: 1px;
+}
+
+.divider5{
+  height: 100px;
+}
+
+.PopUp{
+  position: fixed;
+
+  left: 32%;
+  top: 26%;
+  z-index: 1;
+  width: 35%;
+
+  border: 1px solid #011627;
+  border-radius: 1em;
+  box-shadow: -2px 5px 5px #63ff83;
+
+  background-color: rgb(245, 245, 245);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  color: #011627;
+}
+
+.friendAvatar {
+  width: 90px;
+  height: 90px;
+}
+
+.flash-message-hidden {
+  opacity: 0;
+  transition: all 250ms linear 1s;
+}
+
